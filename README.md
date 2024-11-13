@@ -23,5 +23,13 @@
 ### Debug Build
 
 ```bash
-> cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\librdkafka-2.6.0
+> cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\librdkafka-2.6.0\debug
+```
+
+
+## Docker 里执行命令
+
+```bash
+> sudo docker exec -it 434  /bin/bash
+>
 ```

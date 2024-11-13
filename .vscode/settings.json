@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "signal.h": "c"
+        "signal.h": "c",
+        "errno.h": "c",
+        "ctype.h": "c",
+        "stdlib.h": "c",
+        "rdkafka.h": "c",
+        "process.h": "c",
+        "rdwin32.h": "c"
     }
 }

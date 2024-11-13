@@ -863,7 +863,7 @@ int main(int argc, char **argv) {
       }
 
       producer->poll(delay_us / 1000);
-      usleep(1000);
+      rd_usleep(1000);
       watchdog_kick();
     }
     run = 1;
